@@ -1,0 +1,12 @@
+[
+    [
+        "nat-0fe075191794179ae",
+        "available"
+    ]
+]
+[
+    "52.76.10.80"
+]
+[
+    "721046591371.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/faris"
+]
