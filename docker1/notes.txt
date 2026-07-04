@@ -1,0 +1,13 @@
+Docker version 29.6.1, build 8900f1d
+IMAGE                   ID             DISK USAGE   CONTENT SIZE   EXTRA
+alpine:latest           28bd5fe8b56d         13MB         3.93MB        
+hello-world:latest      96498ffd522e       25.9kB         9.49kB        
+infratify/card:latest   2414f6668e83         81MB         23.1MB        
+infratify/web:v1        11bf7209e30a       92.5MB           26MB        
+nginx:alpine            54f2a904c251       93.3MB         26.9MB   U    
+nginx:latest            ec4ed8b5299e        241MB           66MB   U    
+web:latest              11bf7209e30a       92.5MB           26MB        
+web:v1                  11bf7209e30a       92.5MB           26MB        
+CONTAINER ID   IMAGE          COMMAND                  CREATED      STATUS                  PORTS     NAMES
+0509de13efd7   nginx:alpine   "/docker-entrypoint.…"   2 days ago   Exited (0) 2 days ago             festive_elion
+332d1c601341   nginx          "/docker-entrypoint.…"   4 days ago   Up 4 days               80/tcp    gracious_raman
