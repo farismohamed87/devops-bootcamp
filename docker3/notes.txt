@@ -4,6 +4,7 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED        STATUS        P
 e3d7f90a4316   nginx     "/docker-entrypoint.…"   13 hours ago   Up 13 hours   80/tcp                                    serene_feynman
 e482225c961a   alpine    "sh"                     13 hours ago   Up 13 hours                                             infallible_liskov
 2a503ef21b78   alpine    "sh"                     13 hours ago   Up 13 hours                                             confident_kilby
+
 === DOCKER NETWORKS ===
 NETWORK ID     NAME      DRIVER    SCOPE
 380ab7d0ca5e   arena     bridge    local
@@ -18,8 +19,19 @@ local     arena_me
 local     me
 
 === DOCKER IMAGES ===
-CONTAINER ID   IMAGE     COMMAND                  CREATED        STATUS        PORTS                                     NAMES
-0662bca4771f   nginx     "/docker-entrypoint.…"   13 hours ago   Up 13 hours   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web
-e3d7f90a4316   nginx     "/docker-entrypoint.…"   13 hours ago   Up 13 hours   80/tcp                                    serene_feynman
-e482225c961a   alpine    "sh"                     13 hours ago   Up 13 hours                                             infallible_liskov
-2a503ef21b78   alpine    "sh"                     13 hours ago   Up 13 hours                                             confident_kilby
+IMAGE                                                                               ID             DISK USAGE   CONTENT SIZE   EXTRA
+721046591371.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/faris:latest      075538aec578        104MB         31.2MB        
+721046591371.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/faris:v1          b6537ded511a        104MB         31.2MB        
+721046591371.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/farismohamed:v1   b6537ded511a        104MB         31.2MB        
+alpine:latest                                                                       28bd5fe8b56d         13MB         3.93MB   U    
+app:kecil                                                                           b6537ded511a        104MB         31.2MB        
+ghcr.io/infratify/arena-avatar:latest                                               22a0731f758a        201MB         49.1MB        
+ghcr.io/infratify/arena-server:latest                                               c7c74aa85e67        195MB         48.7MB        
+hello-world:latest                                                                  96498ffd522e       25.9kB         9.49kB   U    
+infratify/card:latest                                                               2414f6668e83         81MB         23.1MB   U    
+infratify/web:v1                                                                    3fffad5fcedf       92.5MB           26MB        
+nginx:alpine                                                                        54f2a904c251       93.3MB         26.9MB   U    
+nginx:latest                                                                        ec4ed8b5299e        241MB           66MB   U    
+redis:latest                                                                        2838d5524559        208MB         56.3MB        
+web:latest                                                                          3fffad5fcedf       92.5MB           26MB        
+web:v1                                                                              3fffad5fcedf       92.5MB           26MB        
