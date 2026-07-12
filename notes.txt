@@ -1,0 +1,11 @@
+#   - dua nameserver Cloudflare
+betty.ns.cloudflare.com
+terry.ns.cloudflare.com
+
+#   - URL pages.dev portfolio awam dari GitHub + custom domain
+farismohamed87-github-io.pages.dev
+faris-mohamed.com
+
+
+#   - URL private-site custom subdomain
+private-site-azm.pages.dev
