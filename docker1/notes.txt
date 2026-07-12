@@ -11,3 +11,7 @@ web:v1                  11bf7209e30a       92.5MB           26MB
 CONTAINER ID   IMAGE          COMMAND                  CREATED      STATUS                  PORTS     NAMES
 0509de13efd7   nginx:alpine   "/docker-entrypoint.…"   2 days ago   Exited (0) 2 days ago             festive_elion
 332d1c601341   nginx          "/docker-entrypoint.…"   4 days ago   Up 4 days               80/tcp    gracious_raman
+
+
+
+
