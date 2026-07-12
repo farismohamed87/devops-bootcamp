@@ -1,0 +1,25 @@
+=== DOCKER PS ===
+CONTAINER ID   IMAGE     COMMAND                  CREATED        STATUS        PORTS                                     NAMES
+0662bca4771f   nginx     "/docker-entrypoint.…"   13 hours ago   Up 13 hours   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web
+e3d7f90a4316   nginx     "/docker-entrypoint.…"   13 hours ago   Up 13 hours   80/tcp                                    serene_feynman
+e482225c961a   alpine    "sh"                     13 hours ago   Up 13 hours                                             infallible_liskov
+2a503ef21b78   alpine    "sh"                     13 hours ago   Up 13 hours                                             confident_kilby
+=== DOCKER NETWORKS ===
+NETWORK ID     NAME      DRIVER    SCOPE
+380ab7d0ca5e   arena     bridge    local
+71414dd03ce3   bridge    bridge    local
+f3baebfba210   host      host      local
+1b7a693d6e7f   none      null      local
+
+=== DOCKER VOLUMES ===
+DRIVER    VOLUME NAME
+local     arena2_me
+local     arena_me
+local     me
+
+=== DOCKER IMAGES ===
+CONTAINER ID   IMAGE     COMMAND                  CREATED        STATUS        PORTS                                     NAMES
+0662bca4771f   nginx     "/docker-entrypoint.…"   13 hours ago   Up 13 hours   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web
+e3d7f90a4316   nginx     "/docker-entrypoint.…"   13 hours ago   Up 13 hours   80/tcp                                    serene_feynman
+e482225c961a   alpine    "sh"                     13 hours ago   Up 13 hours                                             infallible_liskov
+2a503ef21b78   alpine    "sh"                     13 hours ago   Up 13 hours                                             confident_kilby
